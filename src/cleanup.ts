@@ -5,7 +5,6 @@ export default function cleanup() {
     'noscript',
     'iframe',
     'svg',
-    'img',
     'audio',
     'video',
     'canvas',
@@ -34,7 +33,6 @@ export default function cleanup() {
 
   const attributesToRemove = [
     'style',
-    'src',
     'alt',
     'title',
     'role',
